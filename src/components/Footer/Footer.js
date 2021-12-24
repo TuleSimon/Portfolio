@@ -38,7 +38,7 @@ const Footer = () => {
           <SocialIcons href="https://twitter.com/tulesimon">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.wa.me/07011840621">
+          <SocialIcons href="https://wa.me/07011840621">
             <RiWhatsappFill size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://web.facebook.com/TheeHorrorcorian">
