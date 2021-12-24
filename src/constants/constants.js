@@ -2,7 +2,7 @@ export const projects = {
     android: [{
             title: 'Covid-19 Tracker',
             description: "COVID-19 Tracker is a free, open-source Android application that shows the current state of COVID-19 in Nigeria. It has a beautiful, simple, fast, and responsive UI.",
-            image: '/images/covid.png',
+            image: '/images/covid.PNG',
             tags: ['Java', 'XML', 'Dark Theme', 'WHO'],
             source: 'https://github.com/TuleSimon/covid-19',
             youtube: 'https://www.youtube.com/watch?v=d_b7zWIRNh8&t=45s',
@@ -12,7 +12,7 @@ export const projects = {
         {
             title: 'FUOLIB',
             description: "Fuo Library Management System, a project i built for my Final Year Project Exams.",
-            image: '/images/fuolib.png',
+            image: '/images/fuolib.PNG',
             tags: ['Kotlin', 'Firebase'],
             source: 'https://github.com/TuleSimon/FuoLibraryManagementSystem2',
             visit: 'https://drive.google.com/file/d/1jZGs4P8-UjsOeAbG8PZIL2aGj6KBky1x/view?usp=sharing',
@@ -21,7 +21,7 @@ export const projects = {
         {
             title: 'SChat',
             description: "A social Media Real time Chat Application with Profile Features, Image Uploading, Online Status and many other features",
-            image: '/images/soniachat.png',
+            image: '/images/soniachat.PNG',
             tags: ['Kotlin', 'Firebase', 'Dark Theme', 'Lottie'],
             source: 'https://github.com/TuleSimon/SChat',
             visit: 'https://drive.google.com/file/d/1oDiWViuGI3kKdonCGGUMBowiNZKrIBX0/view?usp=sharing',
@@ -62,7 +62,7 @@ export const projects = {
         {
             title: 'XBroker',
             description: "A bitcoin broker Site i built as a training Project using React Js .",
-            image: '/images/xbroker.png',
+            image: '/images/xbroker.PNG',
             tags: ['React', 'Firebase', 'Antd', 'Material UI', 'Redux', 'Lottie'],
             disabled: 'true',
             visit: 'https://xdevbroker.web.app/',
