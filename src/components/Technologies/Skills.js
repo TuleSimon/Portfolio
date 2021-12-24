@@ -1,5 +1,5 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
+import { DiAndroid, DiJavascript, DiMongodb, DiNodejs, DiReact, DiTerminal } from "react-icons/di";
+import { SiJava, SiFirebase, SiGit, SiCodeproject, SiAdobeaftereffects, SiAdobepremierepro, SiAdobephotoshop, SiAdobexd } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 
 export const Skills = [
@@ -7,7 +7,25 @@ export const Skills = [
     slug: "android",
     Component: DiAndroid,
     title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    Description: () => <>I can develop Android Apps using Java & Kotlin.</>,
+  },
+  {
+    slug: "react",
+    Component: DiReact,
+    title: "React",
+    Description: () => <>I develop Full Stack Web Sites using React JS</>,
+  },
+  {
+    slug: "nextjs",
+    Component: DiJavascript,
+    title: "NextJs",
+    Description: () => <>I develop Static Websites using NextJs.</>,
+  },
+  {
+    slug: "monogodb",
+    Component: DiMongodb,
+    title: "MongoDB",
+    Description: () => <>Proficcient knowledge of Mondogb for storing and managing data.</>,
   },
   {
     slug: "flutter",
@@ -19,14 +37,15 @@ export const Skills = [
     slug: "java",
     Component: SiJava,
     title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    Description: () => <>I develop both Android and Desktop apps using Java & Javafx.</>,
   },
   {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
+    slug: "nodejs",
+    Component: DiNodejs,
+    title: "NodeJs",
+    Description: () => <>I Build Fullstack Web Apps using Nodejs.</>,
   },
+
   {
     slug: "firebase",
     Component: SiFirebase,
@@ -39,4 +58,40 @@ export const Skills = [
     title: "Git",
     Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
   },
+  {
+    slug: "adobe",
+    Component: SiAdobeaftereffects,
+    title: "Adobe AE",
+    Description: () => <>I do video effects and video editing for videos using Adobe After Effects.</>,
+  },
+  {
+    slug: "adobe2",
+    Component: SiAdobepremierepro,
+    title: "Adobe PR",
+    Description: () => <>I do can create movies and clips using Adobe Premier Pro.</>,
+  },
+  {
+    slug: "adobe3",
+    Component: SiAdobephotoshop,
+    title: "Adobe PS",
+    Description: () => <>I can perform photo manipulations and design icons and graphics using Adobe Photoshop.</>,
+  },
+  {
+    slug: "adobe4",
+    Component: SiAdobexd,
+    title: "Adobe XD",
+    Description: () => <>I design various material, seamless, UI/UX templates using Adobe XD</>,
+  },
+  {
+    slug: "others",
+    Component: SiCodeproject,
+    title: "Others",
+    Description: () => <>I also have Profficient knowledge on the following Frameworks. <ul> 
+      <li> &gt;&gt; GraphQL      </li>
+      <li> &gt;&gt; Styled Components      </li>
+      <li> &gt;&gt; Tailwind Css      </li>
+      <li> &gt;&gt; Material UI      </li>
+      <li> &gt;&gt; Ant Design      </li>
+      </ul></>,
+  }
 ];

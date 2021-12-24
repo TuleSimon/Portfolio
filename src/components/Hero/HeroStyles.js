@@ -17,3 +17,11 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const ButtonsDIv = styled.div`
+    display:flex;
+    gap: 12px;
+    @media ${(props) => props.theme.breakpoints.md} {
+      flex-direction: column;
+    }
+  `

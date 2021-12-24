@@ -1,8 +1,11 @@
 import React from 'react';
 
 const BackgroundAnimation = () => (
-  <div>
-    <svg
+  <div className='items-center h-full flex align-center justify-center relative'>
+    
+    <span className='me'></span>
+    <img src='/images/me2.png' className='w-full me'/>
+    {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -358,7 +361,8 @@ const BackgroundAnimation = () => (
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
+    </svg> */}
+  
   </div>
 );
 

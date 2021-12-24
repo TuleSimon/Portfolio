@@ -183,7 +183,9 @@ export const ButtonBack = styled.div`
   position: relative;
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
-
+  &:hover {
+    background: ${({ disabled }) => !disabled ? 'linear-gradient(270deg, #e44a08 0%, #7705be 100%)' : ''};
+  }
   @media ${(props) => props.theme.breakpoints.md} {
     width: ${({ alt }) => alt ? '150px' : '184px'};
     height: ${({ alt }) => alt ? '52px' : '48px'};

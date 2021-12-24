@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+html,
+body {
+    padding: 0;
+    margin: 0;
+    transition: all 2s ease-in-out !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.me::before {
+    content: '';
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(270deg, #0a0a0a50 0%, #000000 100%);
+}
+
+.me::after {
+    content: '';
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(130deg, #0a0a0a50 0%, #000000 100%);
+}
