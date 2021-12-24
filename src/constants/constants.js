@@ -41,7 +41,7 @@ export const projects = {
         {
             title: 'JAVA LIB',
             description: "Java Library Management System, a project i built to be the Desktop version of my Mobile FUOLIB.",
-            image: '/images/javafxlib.png',
+            image: '/images/javafxlib.PNG',
             tags: ['Java', 'Javafx', 'FXML', 'Sqllite', 'FontAwesome', 'JFeonix'],
             source: 'https://github.com/TuleSimon/Javafx-LibraryManagement-System',
             youtube: 'https://www.youtube.com/watch?v=79dFkkTlz6w',
