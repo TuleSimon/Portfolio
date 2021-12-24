@@ -1,21 +1,21 @@
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/lordarcadius/portfolio/blob/master/LICENSE)
+
 
   
 # Personal Portfolio
 
 A portfolio built in React and NextJS. Simple, clean and fast.
 
-**Note: The logo and banner used in the project are my intellectual property. Please refrain from using it anywhere.**
 
 
 
-![App Screenshot](https://i.ibb.co/jRRNMkH/Screenshot-from-2021-10-27-18-45-14.png)
+
+![App Screenshot](https://scontent.flos2-2.fna.fbcdn.net/v/t39.30808-6/269870982_605399537459130_4625501269340018997_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFQKbMcSslcM6xBNeHHsexg886cUBsEW7zzzpxQGwRbvAfZItkWlkY1_PSFvJBk4LifxWhQBPGUBlUHPzsnJ0ev&_nc_ohc=o361tJvKpDEAX_zT4IT&_nc_zt=23&_nc_ht=scontent.flos2-2.fna&oh=00_AT-hxu8dSGDSf0n9vqa9ruZWqffHl3ZEWip-6CObsOBhqw&oe=61C9BC3C)
 
   
 ## Demo
 
-[Live Preview](https://www.vipuljha.com)
+[Live Preview](https://portfolio-tulesimon.vercel.app/)
 
 ## Run Project 
 
@@ -45,9 +45,9 @@ Please make sure to maintain `authorship`.
   
 ## Credits
 
-- [@adrianhajdin](https://github.com/adrianhajdin) (The original author)
-- [@lordarcadius](https://github.com/lordarcadius) (I just fixed and modified few things)
-- [@dhruvsaxena1998](https://github.com/dhruvsaxena1998) (For help and PR)
+
+- [@lordarcadius](https://github.com/lordarcadius) (I just fixed,updated and modified few things from his design)
+
 
   
 ## License
